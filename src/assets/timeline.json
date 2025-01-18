@@ -1,0 +1,208 @@
+{
+  "timeline": [
+    {
+      "type": "professional",
+      "position": "Internship",
+      "company": "Robert Bosch Elektronika Kft",
+      "location": "Hatvan, Hungary",
+      "startDate": "2014-09-01",
+      "endDate": "2018-10-01",
+      "description": "Assist the work of engineers in mostly manual/repetitive tasks. Write simple applications to make these tedious tasks faster.",
+      "shortDescription": "Assist engineers with automating manual tasks.",
+      "height": 2,
+      "stacks": [
+        [
+          "Java 8",
+          "MySQL"
+        ]
+      ]
+    },
+    {
+      "type": "professional",
+      "position": "Junior Software Engineer",
+      "company": "DHL Information Services (Europe) s.r.o.",
+      "location": "Prague, Czech Republic",
+      "startDate": "2018-10-01",
+      "endDate": "2019-10-31",
+      "description": "Develop full-stack we applications for internal usage.",
+      "shortDescription": "Develop full-stack we applications for internal usage.",
+      "height": 3.8,
+      "stacks": [
+        [
+          "Python",
+          "Oracle"
+        ],
+        [
+          "Spring Boot",
+          "React",
+          "Oracle"
+        ]
+      ]
+    },
+    {
+      "type": "professional",
+      "position": "Software Engineer",
+      "company": "DHL Information Services (Europe) s.r.o.",
+      "location": "Prague, Czech Republic",
+      "startDate": "2019-10-31",
+      "endDate": "2024-12-31",
+      "description": "Developing full-stack web applications with Spring Boot and React. Fully tested with JUnit 5",
+      "shortDescription": "Developing full-stack web applications with Spring Boot and React. Fully tested with JUnit 5",
+      "height": 6,
+      "stacks": [
+        [
+          "Spring Boot",
+          "Oracle",
+          "React",
+          "Junit 5",
+          "PLSQL",
+          "JPA",
+          "SOAP UI",
+          "Jest",
+          "Cypress",
+          "Testcontainers",
+          "Mockito",
+          "Docker",
+          "Jenkins"
+        ],
+        [
+          "PHP", "Oracle"
+        ],
+        [
+          "Spring Boot",
+          "Angular",
+          "WSDL"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "Minecraft Jira Plugin",
+      "startDate": "2020-12-08",
+      "endDate": "2022-06-09",
+      "description": "",
+      "shortDescription": "Bring-up of Minecraft Jira integration to at the time latest version",
+      "height": 1.7,
+      "stacks": [
+        [
+          "Java",
+          "JIRA API"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "Home Assistant Addon",
+      "startDate": "2023-01-14",
+      "endDate": "2023-01-22",
+      "description": "",
+      "shortDescription": "Add compatibility for SONOFF Dual R3 and fix bugs of multi-switch devices",
+      "height": 3,
+      "stacks": [
+        [
+          "JavaScript"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "ih8rtcgui",
+      "startDate": "2023-06-03",
+      "endDate": "2024-08-23",
+      "description": "",
+      "shortDescription": "IBM Engineering Lifecycle Management GUI interface",
+      "height": 3,
+      "stacks": [
+        [
+          "JavaScript",
+          "Bootstrap",
+          "JQuery",
+          "ElectronJS"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "fb-chat-api",
+      "startDate": "2023-05-10",
+      "endDate": "",
+      "description": "",
+      "shortDescription": "Contributions to Unofficial Facebook Chat API",
+      "height": 3.7,
+      "stacks": [
+        [
+          "JavaScript",
+          "MQTT"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "go-librespot",
+      "startDate": "2024-09-22",
+      "endDate": "2024-09-29",
+      "description": "",
+      "shortDescription": "Fix bugs in open-source Spotify client",
+      "height": 3,
+      "stacks": [
+        [
+          "Go"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "MessengerBot",
+      "startDate": "2022-11-09",
+      "endDate": "",
+      "description": "",
+      "shortDescription": "Personal Messenger Bot based on fb-chat-api",
+      "height": 3,
+      "stacks": [
+        [
+          "Javascript",
+          "PostgreSQL",
+          "Sequelize"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "MinecraftBackend & MajkraftPlugin",
+      "startDate": "2021-12-01",
+      "endDate": "2021-12-22",
+      "description": "",
+      "shortDescription": "Personal projects to allow Discord and Minecraft messages to be synced and add custom commands (for example events/locations etc)",
+      "height": 4,
+      "stacks": [
+        [
+          "Typescript",
+          "PostgreSQL",
+          "Swagger"
+        ],
+        [
+          "Java"
+        ]
+      ]
+    },
+    {
+      "type": "personal",
+      "position": "Home Lab",
+      "startDate": "2022-01-01",
+      "endDate": "",
+      "description": "",
+      "shortDescription": "Proxmox based home-lab for entertainment and productivity purposes.",
+      "height": 4,
+      "stacks": [
+        [
+          "Proxmox",
+          "Docker",
+          "Jenkins",
+          "Grafana",
+          "Loki",
+          "Jellyfin & *Arr stack"
+        ]
+      ]
+    }
+  ]
+}

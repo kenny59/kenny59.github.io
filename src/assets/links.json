@@ -1,0 +1,19 @@
+{
+  "links": [
+    {
+      "url": "https://www.linkedin.com/in/tibor-szucs/",
+      "type": "LinkedIn",
+      "icon": "bi-linkedin"
+    },
+    {
+      "url": "https://github.com/kenny59",
+      "type": "Github",
+      "icon": "bi-github"
+    },
+    {
+      "url": "mailto:kenny59hun@gmail.com",
+      "type": "Gmail",
+      "icon": "co-gmail"
+    }
+  ]
+}

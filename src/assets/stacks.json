@@ -1,0 +1,48 @@
+{
+  "stacks": {
+    "serverside": [
+      {"title": "Spring Boot", "experience": "6", "icon": "co-spring"},
+      {"title": "Spring Data & Hibernate", "experience": "6", "icon": "si-springboot"},
+      {"title": "Node.js", "experience": "5", "icon": "io-logo-nodejs"},
+      {"title": "Typescript", "experience": "5", "icon": "co-typescript"},
+      {"title": "ExpressJs", "experience": "4", "icon": "si-express"},
+      {"title": "Sequelize", "experience": "3", "icon": "si-sequelize"},
+      {"title": "Prisma", "experience": "2", "icon": "si-prisma"},
+      {"title": "Oracle", "experience": "6", "icon": "si-oracle"},
+      {"title": "MySQL", "experience": "8",  "icon": "si-mysql"},
+      {"title": "PostgreSQL", "experience": "5",  "icon": "si-postgresql"},
+      {"title": "MongoDB", "experience": "",  "icon": "si-mongodb"},
+      {"title": "Bash", "experience": "5",  "icon": "si-gnubash"},
+      {"title": "Go", "experience": "3",  "icon": "co-go"},
+      {"title": "Rust", "experience": "2",  "icon": "si-rust"}
+
+    ],
+    "clientside": [
+      {"title": "Angular", "experience":  "2",  "icon": "si-angular"},
+      {"title": "React", "experience":  "5",  "icon": "si-react"},
+      {"title": "Vue", "experience":  "2",  "icon": "co-vue-js"},
+      {"title": "Redux", "experience":  "5",  "icon": "si-redux"},
+      {"title": "TailwindCSS", "experience":  "2",  "icon": "si-tailwindcss"}
+    ],
+    "devops": [
+      {"title": "Docker", "experience": "4", "icon": "co-docker"},
+      {"title": "Kubernetes", "experience": "", "icon": "co-kubernetes"},
+      {"title": "Jenkins", "experience": "3", "icon": "co-jenkins"},
+      {"title": "AWS", "experience": "", "icon": "co-amazon-aws"},
+      {"title": "Proxmox", "experience": "3", "icon": "co-proxmox"},
+      {"title": "GitHub Actions", "experience": "3", "icon": "co-github"},
+      {"title": "Ansible", "experience": "3", "icon": "co-ansible"},
+      {"title": "Terraform", "experience": "", "icon": "co-terraform"}
+    ],
+    "testing": [
+      {"title": "JUnit 5", "experience": "5", "icon": "si-junit5"},
+      {"title": "Testcontainers", "experience": "2", "icon": "fa-database"},
+      {"title": "Mockito", "experience": "5", "icon": "si-mocha"},
+      {"title": "Jest", "experience": "", "icon": "co-jest"},
+      {"title": "Cypress", "experience": "", "icon": "si-cypress"},
+      {"title": "Selenium", "experience": "5", "icon": "si-selenium"},
+      {"title": "Apache JMeter", "experience": "", "icon": "si-apachejmeter"},
+      {"title": "Postman", "experience": "6", "icon": "si-postman"}
+    ]
+  }
+}
