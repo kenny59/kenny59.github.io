@@ -1,6 +1,6 @@
 <template>
   <div class="w-full mx-10 my-10 p-6 border-slate-200 border dark:border-slate-50 dark:border-opacity-10 rounded-md dark:text-white">
-    <div class="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr]">
+    <div class="grid grid-cols-1 md:grid-cols-[1fr_auto_1fr]">
       <div class="col-auto">
         <div class="text-2xl font-extralight text-center">
           Professional Experience
@@ -11,7 +11,7 @@
           </li>
         </ul>
       </div>
-      <div :class="'min-w-['+canvasData.width+']'" class="hidden lg:block col-span-1">
+      <div :class="'min-w-['+canvasData.width+']'" class="hidden md:block col-span-1">
         <canvas id="canvas" :height="canvasData.height+100" :width="canvasData.width" class="" />
       </div>
       <div class="col-auto">
