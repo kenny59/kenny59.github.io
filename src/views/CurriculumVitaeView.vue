@@ -105,6 +105,18 @@ import { Separator } from '@/components/ui/separator'
   <Separator class="dark:bg-white print:bg-slate-900" orientation="horizontal"/>
   <div class="flex">
     <div class="flex-grow text-start">
+      Hungarian
+    </div>
+    <div class="flex-grow text-end">
+      <v-icon name="io-star"/>
+      <v-icon name="io-star"/>
+      <v-icon name="io-star"/>
+      <v-icon name="io-star"/>
+      <v-icon name="io-star"/>
+    </div>
+  </div>
+  <div class="flex">
+    <div class="flex-grow text-start">
       English
     </div>
     <div class="flex-grow text-end">
