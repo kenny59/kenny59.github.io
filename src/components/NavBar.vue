@@ -54,7 +54,7 @@ let isDark = inject('darkMode')
     <div class="h-screen w-full bg-columbia-blue items-center absolute top-12 left-0 block sm:hidden dark:bg-gray-900 dark:text-white" :class="isNavBarOpen ? '' : 'hidden'">
       <ul class="flex flex-wrap sm:gap-2">
         <li v-for="item in items" class="w-full text-center py-1 border-b dark:border-gray-800">
-          <RouterLink :to="{name: item.route}">
+          <RouterLink :to="{name: item.route}" @click="isNavBarOpen = false">
             {{item.name}}
           </RouterLink>
         </li>

@@ -8,9 +8,15 @@ import { Separator } from '@/components/ui/separator'
   <div class="font-bold text-2xl content-left">
     Tibor Szűcs
   </div>
-  <div class="flex font-light items-center gap-4 text-lg">
-    <div class="font-mono">kenny59hun@gmail.com</div>
-    <div class="flex items-center gap-1"><v-icon name="bi-phone"/>+36/20 388-8577</div>
+  <div class="flex flex-wrap md:flex-nowrap font-light items-center sm:gap-4 text-lg">
+    <div class="font-mono">
+      <a href="mailto:kenny59hun@gmail.com">kenny59hun@gmail.com</a>
+    </div>
+    <div class="flex items-center gap-1"><v-icon name="bi-phone"/>
+      <a href="tel:+36203888577">
+        +36 20 388 8577
+      </a>
+    </div>
     <div class="flex items-center gap-1"><v-icon name="co-location-pin"/> Budapest, Hungary</div>
   </div>
   <Separator class="dark:bg-white print:bg-slate-900" orientation="horizontal"/>
