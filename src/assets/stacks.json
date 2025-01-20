@@ -32,7 +32,8 @@
       {"title": "Proxmox", "experience": "3", "icon": "co-proxmox"},
       {"title": "GitHub Actions", "experience": "3", "icon": "co-github"},
       {"title": "Ansible", "experience": "3", "icon": "co-ansible"},
-      {"title": "Terraform", "experience": "", "icon": "co-terraform"}
+      {"title": "Terraform", "experience": "", "icon": "co-terraform"},
+      {"title": "Rancher", "experience": "1", "icon": "si-rancher"}
     ],
     "testing": [
       {"title": "JUnit 5", "experience": "5", "icon": "si-junit5"},

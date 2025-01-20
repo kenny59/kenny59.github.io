@@ -35,11 +35,12 @@
 
 <script lang="ts" setup>
 import _ from 'lodash';
-import Timeline from './timeline';
-import {onMounted} from "vue";
+import TimelineAnimation from "./timeline-animation";
+import {onMounted, onUnmounted} from "vue";
 import timeline from '../assets/timeline.json';
 import TimelineItem from "./TimelineItem.vue";
 import moment from "moment/moment";
+let timelineAnimation : TimelineAnimation;
 let timelineData = timeline.timeline.filter(item => item.type === "professional");
 timelineData.sort((a, b) => moment(a.startDate).diff(moment(b.startDate)));
 let personalProjects = timeline.timeline.filter(item => item.type === "personal");
@@ -89,8 +90,10 @@ onMounted(() => {
   });
   let startYear = moment(firstStartDate).year();
   let endYear = moment().year();
-  let timelineAnimation = new Timeline(canvas, lines, timeLineItems, canvasData, startYear, endYear);
+  timelineAnimation = new TimelineAnimation(canvas, lines, timeLineItems, canvasData, startYear, endYear);
   timelineAnimation.animate(0);
-
 });
+onUnmounted(() => {
+  timelineAnimation.cancel();
+})
 </script>

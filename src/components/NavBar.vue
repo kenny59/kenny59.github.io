@@ -3,6 +3,9 @@ import { ref} from "vue";
 
 const isNavBarOpen = ref<boolean>(false);
 const items = ref([
+  {
+    name: "Resume", route: "cv"
+  }
 ])
 import link from './../assets/links.json';
 let links = link.links;
@@ -13,13 +16,19 @@ let isDark = inject('darkMode')
 
 
 <template>
-  <div class="w-full flex sticky top-0 z-10 items-center bg-columbia-blue dark:bg-gray-900 dark:text-white border-b border-slate-200 dark:border-slate-800">
+  <div class="print:hidden w-full flex sticky top-0 z-10 items-center bg-columbia-blue dark:bg-gray-900 dark:text-white border-b border-slate-200 dark:border-slate-800">
     <div class="mr-auto m-2 font-bold text-xl">
-      Tibor.
+      <RouterLink :to="{name: 'home'}">
+        Tibor.
+      </RouterLink>
     </div>
     <div class="justify-center hidden sm:block">
       <ul class="flex sm:gap-3">
-        <li v-for="item in items">{{item}}</li>
+        <li v-for="item in items" class="flex items-center">
+          <RouterLink :to="{name: item.route}">
+            {{item.name}}
+          </RouterLink>
+        </li>
         <li @click="isDark = !isDark">
           <v-icon :name="isDark ? 'gi-sunrise' : 'gi-sunset'" scale="2"/>
         </li>
@@ -42,7 +51,9 @@ let isDark = inject('darkMode')
     <div class="h-screen w-full bg-columbia-blue items-center absolute top-12 left-0 block sm:hidden dark:bg-gray-900 dark:text-white" :class="isNavBarOpen ? '' : 'hidden'">
       <ul class="flex flex-wrap sm:gap-2">
         <li v-for="item in items" class="w-full text-center py-1 border-b dark:border-gray-800">
-          {{item}}
+          <RouterLink :to="{name: item.route}">
+            {{item.name}}
+          </RouterLink>
         </li>
         <li v-for="link in links" class="w-full text-center py-1 border-b dark:border-gray-800">
           <a :href="link.url" target="_blank" class="">

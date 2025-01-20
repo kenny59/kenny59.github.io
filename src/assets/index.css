@@ -4,18 +4,9 @@
 @tailwind components;
 @tailwind utilities;
 
-.noto-sans-1 {
+body {
   font-family: "Noto Sans", serif;
-  font-optical-sizing: auto;
-  font-weight: 100;
-  font-style: normal;
-  font-variation-settings: "wdth" 100;
 }
-
-/*body {*/
-/*  font-family: "Noto Sans", serif;*/
-/*  @apply bg-green-50 dark:bg-slate-900*/
-/*}*/
 
 body * {
   @apply transition-colors duration-100 ease-in;
@@ -23,6 +14,7 @@ body * {
 
 @layer base {
   :root {
+    font-family: "Noto Sans", serif;
     --background: 200, 34%, 83%;
     --foreground: 222.2 84% 4.9%;
 
