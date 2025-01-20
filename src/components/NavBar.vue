@@ -36,6 +36,9 @@ let isDark = inject('darkMode')
     </div>
     <div class="ml-auto m-2">
       <ul class="items-end sm:gap-1 mr-6 hidden sm:flex">
+        <li onclick="window.print()">
+          <v-icon name="io-print-sharp"/>
+        </li>
         <li v-for="link in links" class="content-end">
           <a :href="link.url" target="_blank" class="dark:bg-slate-900 m-0.5 px-1 h-8 border-2 border-slate-400 dark:border-slate-500 rounded-md shadow-md text-black dark:text-white py-0.5 text-sm">
             <v-icon :name="link.icon"/>

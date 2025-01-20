@@ -4,7 +4,7 @@ import { Separator } from '@/components/ui/separator'
 </script>
 
 <template>
-<div class="w-full mt-4">
+<div class="w-full mt-4 print:text-black">
   <div class="font-bold text-2xl content-left">
     Tibor Szűcs
   </div>
