@@ -24,29 +24,29 @@ if(lang === "en") {
       {{cv?.name}}
       </div>
       <div class="flex flex-wrap font-light items-center gap-x-2 text-lg py-2">
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1 -my-0.5">
           <v-icon name="bi-phone"/>
           <a :href="`tel:${cv?.tel}`">
             {{cv?.telFormatted}}
           </a>
         </div>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1 -my-0.5">
           <v-icon name="co-gmail"/>
           <a :href="`mailto:${cv?.email}`">
             {{cv?.email}}
           </a>
         </div>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1 -my-0.5">
           <v-icon name="co-location-pin"/>
           {{cv?.location}}
         </div>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1 -my-0.5">
           <v-icon name="co-github"/>
           <a :href="cv?.github" target="_blank">
             {{cv?.github}}
           </a>
         </div>
-        <div class="flex items-center gap-1">
+        <div class="flex items-center gap-1 -my-0.5">
           <v-icon name="bi-globe2"/>
           <a :href="cv?.website" target="_blank">
             {{cv?.website}}
@@ -54,12 +54,12 @@ if(lang === "en") {
         </div>
       </div>
     </div>
-    <div class="flex-shrink-0 ml-auto relative -top-2 right-0">
+    <div class="flex-shrink-0 ml-auto relative print:top-0 -top-2 right-0">
       <img src="/profile.jpg" class="object-cover w-32 h-32 rounded-full border-4 border-slate-700"/>
     </div>
   </div>
   <Separator class="print:hidden dark:bg-white print:dark:bg-slate-900" orientation="horizontal"/>
-  <div class="text-xl font-mono font-bold uppercase print:-mt-6 mt-2">
+  <div class="text-xl font-mono font-bold uppercase print:-mt-2 mt-2">
     {{cv?.experienceLabel}}
   </div>
   <Separator class="dark:bg-white print:dark:bg-slate-900" orientation="horizontal"/>
@@ -85,7 +85,6 @@ if(lang === "en") {
         {{bullet}}
       </li>
     </ul>
-
   </div>
   <!--  <div class="flex">-->
   <!--    <div class="flex-grow text-start font-semibold">-->
@@ -106,7 +105,7 @@ if(lang === "en") {
   <!--  <ul class="list-disc list-inside">-->
   <!--    <li class="mt-0.5">Automated manual tasks and wrote support applications for recurring issues</li>-->
   <!--  </ul>-->
-  <div class="text-xl font-mono font-bold uppercase mt-2">
+  <div class="text-xl font-mono font-bold uppercase print:mt-1 mt-2">
     {{cv?.skillsLabel}}
   </div>
   <Separator class="dark:bg-white print:dark:bg-slate-900" orientation="horizontal"/>
@@ -139,7 +138,7 @@ if(lang === "en") {
       </div>
     </div>
   </div>
-  <div class="text-xl font-mono font-bold uppercase mt-2">
+  <div class="text-xl font-mono font-bold uppercase print:mt-1 mt-2">
     {{cv?.languagesLabel}}
   </div>
   <Separator class="dark:bg-white print:dark:bg-slate-900" orientation="horizontal"/>
@@ -151,7 +150,7 @@ if(lang === "en") {
       <v-icon name="io-star" v-for="_n in language.proficiency"/>
     </div>
   </div>
-  <div class="text-xl font-mono font-bold uppercase mt-2">
+  <div class="text-xl font-mono font-bold uppercase print:mt-1 mt-2">
     {{cv?.hobbiesLabel}}
   </div>
   <Separator class="dark:bg-white print:dark:bg-slate-900" orientation="horizontal"/>
