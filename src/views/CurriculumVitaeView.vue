@@ -23,7 +23,7 @@ if(lang === "en") {
       <div class="font-bold text-2xl content-left">
       {{cv?.name}}
       </div>
-      <div class="flex flex-wrap lg:flex-nowrap font-light items-center gap-x-2 text-lg py-2">
+      <div class="flex flex-wrap font-light items-center gap-x-2 text-lg py-2">
         <div class="flex items-center gap-1">
           <v-icon name="bi-phone"/>
           <a :href="`tel:${cv?.tel}`">
@@ -41,8 +41,14 @@ if(lang === "en") {
           {{cv?.location}}
         </div>
         <div class="flex items-center gap-1">
+          <v-icon name="co-github"/>
+          <a :href="cv?.github" target="_blank">
+            {{cv?.github}}
+          </a>
+        </div>
+        <div class="flex items-center gap-1">
           <v-icon name="bi-globe2"/>
-          <a :href="cv.website" target="_blank">
+          <a :href="cv?.website" target="_blank">
             {{cv?.website}}
           </a>
         </div>
