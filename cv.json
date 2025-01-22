@@ -1,0 +1,66 @@
+{
+  "name": "Tibor Szűcs",
+  "email": "kenny59hun@gmail.com",
+  "tel": "+36203888577",
+  "telFormatted": "+36 20 388 8577",
+  "location": "Budapest, Hungary",
+  "website": "https://kenny59.github.io",
+  "experienceLabel": "Experience",
+  "jobs": [
+    {
+      "company": "DHL IT Services s.r.o.",
+      "from": "October, 2018",
+      "to": "December, 2024",
+      "position": "Software Engineer",
+      "location": "Prague, Czech Republic",
+      "jobBullets": [
+        "Collaborated within an Agile team to ensure seamless integration and deployment using continuous delivery (CI/CD) practices",
+        "Designed, refactored, and maintained robust web applications and services, enhancing functionality and performance",
+        "Built responsive, user-friendly interfaces with modern frameworks like React, Angular, and TailwindCSS",
+        "Proactively introduced new technologies for legacy applications, significantly accelerating development and deployment timelines",
+        "Oversaw end-to-end project lifecycles, from initial development to successful deployment, ensuring quality and timely delivery"
+      ]
+    }
+  ],
+  "skillsLabel": "Skills",
+  "skills": [
+    "Languages: Java, Javascript, PL/SQL, Typescript, Kotlin, Rust, C++, C#, Python",
+    "Frontend: Vue.js, React, Angular, Bootstrap, MUI",
+    "Backend: Spring Boot, Express.js, Laravel",
+    "Mobile: Flutter, React Native",
+    "Relational Databases: Oracle, PostgreSQL, MySQL, Hibernate, Prisma, Sequelize",
+    "NoSQL Databases: MongoDB, Firebase",
+    "CI/CD: Jenkins, Github Actions",
+    "Cloud: AWS, Rancher",
+    "Containerization: Docker, Kubernetes",
+    "APIs: REST, SOAP, WS, MQTT",
+    "Testing: JUnit, Mockito, Jest, Mocha, Cypress, Selenium"
+  ],
+  "educationLabel": "Education",
+  "educations": [
+    {
+      "institution": "Bánki Donát Gépész és Biztonságtechnikai Mérnöki Kar",
+      "major": "BSc Mechatronical Engineering",
+      "location": "Budapest, Hungary",
+      "from": "2013",
+      "to": "2018"
+    }
+  ],
+  "languagesLabel": "Languages",
+  "languages": [
+    {
+      "name": "Hungarian",
+      "proficiency": 5
+    },
+    {
+      "name": "English",
+      "proficiency": 4
+    },
+    {
+      "name": "Czech",
+      "proficiency": 1
+    }
+  ],
+  "hobbiesLabel": "Hobbies",
+  "hobbies": "Calistenics, beer brewing, tinkering with electronics"
+}
