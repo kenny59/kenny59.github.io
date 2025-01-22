@@ -24,8 +24,8 @@
       "location": "Prague, Czech Republic",
       "startDate": "2018-10-01",
       "endDate": "2019-10-31",
-      "description": "Develop full-stack we applications for internal usage.",
-      "shortDescription": "Develop full-stack we applications for internal usage.",
+      "description": "Developing full stack web applications and web services in an agile environment",
+      "shortDescription": "Developing full stack web applications and web services in an agile environment",
       "height": 3.8,
       "stacks": [
         [
@@ -46,8 +46,8 @@
       "location": "Prague, Czech Republic",
       "startDate": "2019-10-31",
       "endDate": "2024-12-31",
-      "description": "Developing full-stack web applications with Spring Boot and React. Fully tested with JUnit 5",
-      "shortDescription": "Developing full-stack web applications with Spring Boot and React. Fully tested with JUnit 5",
+      "description": "Developing full stack web applications and web services in an agile environment",
+      "shortDescription": "Developing full stack web applications and web services in an agile environment, while also taking part in creating CI/CD workflows using Jenkins.",
       "height": 6,
       "stacks": [
         [

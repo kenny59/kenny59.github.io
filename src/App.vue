@@ -15,7 +15,7 @@ provide('darkMode', isDark);
 
 <template>
   <div :class="{ dark: isDark }" class="justify-center justify-items-center dark:bg-slate-900">
-    <router-view />
+    <router-view/>
   </div>
 </template>
 

@@ -21,7 +21,14 @@ const router = createRouter({
                 {
                     path: 'cv',
                     name: 'cv',
-                    component: CurriculumVitaeView
+                    component: CurriculumVitaeView,
+                    props: { lang: "en" }
+                },
+                {
+                    path: 'cvHun',
+                    name: 'cvHun',
+                    component: CurriculumVitaeView,
+                    props: { lang: "hu" }
                 }
             ]
         },

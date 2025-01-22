@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full mx-10 my-10 p-6 border-slate-200 border dark:border-slate-50 dark:border-opacity-10 rounded-md dark:text-white">
+  <div class="w-full my-10 p-6 border-slate-200 border dark:border-slate-50 dark:border-opacity-10 rounded-md dark:text-white">
     <div class="grid grid-cols-1 lg:grid-cols-[1fr_auto_1fr]">
       <div class="col-auto">
         <div class="text-2xl font-extralight text-center">

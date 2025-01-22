@@ -79,6 +79,10 @@ body * {
   }
 }
 
+html {
+  @apply print:bg-white;
+}
+
 @layer base {
   * {
     @apply border-border;

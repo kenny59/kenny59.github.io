@@ -1,0 +1,66 @@
+{
+  "name": "Szűcs Tibor",
+  "email": "kenny59hun@gmail.com",
+  "tel": "+36203888577",
+  "telFormatted": "+36 20 388 8577",
+  "location": "Budapest, Magyarország",
+  "website": "https://kenny59.github.io",
+  "experienceLabel": "Szakmai Tapasztalat",
+  "jobs": [
+    {
+      "company": "DHL IT Services s.r.o.",
+      "from": "Október, 2018",
+      "to": "December, 2024",
+      "position": "Software Engineer",
+      "location": "Prága, Csehország",
+      "jobBullets": [
+        "Agilis csapat tagjaként dolgoztam, ahol a folyamatos szállítási (CI/CD) gyakorlatok alkalmazásával biztosítottam a zökkenőmentes integrációt és telepítést",
+        "A projektek teljes életciklusát menedzseltem, a kezdeti fejlesztéstől a sikeres telepítésig, miközben biztosítottam a minőséget és a határidők betartását",
+        "Új technológiák proaktív bevezetésével jelentősen felgyorsítottam a meglévő rendszerek fejlesztési és telepítési folyamatait",
+        "Webalkalmazások és szolgáltatások tervezésével, refaktorálásával és karbantartásával javítottam a funkcionalitást és a teljesítményt",
+        "Modern keretrendszerek, például React, Angular és TailwindCSS segítségével reszponzív és felhasználóbarát felületeket fejlesztettem"
+      ]
+    }
+  ],
+  "skillsLabel": "Ismeretek",
+  "skills": [
+    "Nyelvek: Java, Javascript, PL/SQL, Typescript, Kotlin, Rust, C++, C#, Python",
+    "Frontend: Vue.js, React, Angular, Bootstrap, MUI",
+    "Backend: Spring Boot, Express.js, Laravel",
+    "Mobile: Flutter, React Native",
+    "Relációs adatbázisok: Oracle, PostgreSQL, MySQL, Hibernate, Prisma, Sequelize",
+    "NoSQL adatbázisok: MongoDB, Firebase",
+    "CI/CD: Jenkins, Github Actions",
+    "Cloud: AWS, Rancher",
+    "Containerization: Docker, Kubernetes",
+    "APIs: REST, SOAP, WS, MQTT",
+    "Tesztelés: JUnit, Mockito, Jest, Mocha, Cypress, Selenium"
+  ],
+  "educationLabel": "Tanulmányok",
+  "educations": [
+    {
+      "institution": "Bánki Donát Gépész és Biztonságtechnikai Mérnöki Kar",
+      "major": "BSc Mechatronikai Mérnök",
+      "location": "Budapest, Magyarország",
+      "from": "2013",
+      "to": "2018"
+    }
+  ],
+  "languagesLabel": "Nyelvek",
+  "languages": [
+    {
+      "name": "Magyar",
+      "proficiency": 5
+    },
+    {
+      "name": "Angol",
+      "proficiency": 4
+    },
+    {
+      "name": "Cseh",
+      "proficiency": 1
+    }
+  ],
+  "hobbiesLabel": "Hobbik",
+  "hobbies": "Street workout, sörfőzés, hobbiprojektek fejlesztése"
+}

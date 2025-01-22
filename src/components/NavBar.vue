@@ -4,7 +4,10 @@ import { ref} from "vue";
 const isNavBarOpen = ref<boolean>(false);
 const items = ref([
   {
-    name: "Resume", route: "cv"
+    name: "CV", route: "cv"
+  },
+  {
+    name: "Önéletrajz", route: "cvHun"
   }
 ])
 import link from './../assets/links.json';

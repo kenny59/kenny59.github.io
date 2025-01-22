@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <div class="sm:w-full sm:mx-10 sm:my-10 p-6 border-slate-200 border dark:border-slate-50 dark:border-opacity-10 rounded-md dark:text-white">
+  <div class="sm:w-full sm:my-10 p-6 border-slate-200 border dark:border-slate-50 dark:border-opacity-10 rounded-md dark:text-white">
     <div>
       <div class="text-2xl font-semibold">
         Tibor Szűcs
