@@ -17,8 +17,8 @@
       "jobBullets": [
         "Agilis csapat tagjaként dolgoztam, ahol a folyamatos szállítási (CI/CD) gyakorlatok alkalmazásával biztosítottam a zökkenőmentes integrációt és telepítést",
         "A projektek teljes életciklusát menedzseltem, a kezdeti fejlesztéstől a sikeres telepítésig, miközben biztosítottam a minőséget és a határidők betartását",
+        "Webalkalmazások és szolgáltatások (Spring Framework) tervezésével, refaktorálásával és karbantartásával javítottam a funkcionalitást és a teljesítményt",
         "Új technológiák proaktív bevezetésével jelentősen felgyorsítottam a meglévő rendszerek fejlesztési és telepítési folyamatait",
-        "Webalkalmazások és szolgáltatások tervezésével, refaktorálásával és karbantartásával javítottam a funkcionalitást és a teljesítményt",
         "Modern keretrendszerek, például React, Angular és TailwindCSS segítségével reszponzív és felhasználóbarát felületeket fejlesztettem"
       ]
     }
@@ -77,6 +77,8 @@
     "Modern keretrendszerek",
     "funkcionalitást",
     "projektek teljes életciklusát",
-    "felgyorsítottam"
+    "felgyorsítottam",
+    "Spring Framework",
+    "teljesítményt"
   ]
 }
