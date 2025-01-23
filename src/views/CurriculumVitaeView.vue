@@ -1,19 +1,36 @@
 <script setup lang="ts">
 import {type Ref, ref} from "vue";
 import { Separator } from '@/components/ui/separator'
+import type {CV} from "@/interfaces/cv.ts";
 
 const props = defineProps({
   lang: String
 });
 const {lang} = props;
 
-let cv : Ref<any> = ref();
+let cv : Ref<CV | undefined> = ref(undefined);
+
+let formatBullets = (cvObject: CV | undefined) => {
+  cvObject?.jobs?.forEach((job, jobIndex) => {
+    job.jobBullets.forEach((bullet, bulletIndex) => {
+      cvObject?.highlightedWords.forEach(highlightedWord => {
+        bullet = bullet.replace(highlightedWord, `<span class="font-semibold">${highlightedWord}</span>`);
+      })
+      cvObject.jobs[jobIndex].jobBullets[bulletIndex] = bullet;
+    })
+  });
+  console.log(cvObject)
+  cv.value = cvObject;
+}
 
 if(lang === "en") {
   cv.value = await (await fetch('../cv.json')).json();
+  formatBullets(cv.value);
 } else {
   cv.value = await (await fetch('../cvHun.json')).json();
+  formatBullets(cv.value);
 }
+
 </script>
 
 <template>
@@ -81,9 +98,7 @@ if(lang === "en") {
       </div>
     </div>
     <ul class="list-disc list-inside">
-      <li class="mt-0.5" v-for="bullet in job.jobBullets">
-        {{bullet}}
-      </li>
+      <li class="mt-0.5" v-for="bullet in job.jobBullets" v-html="bullet"></li>
     </ul>
   </div>
   <!--  <div class="flex">-->

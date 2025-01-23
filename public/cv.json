@@ -63,5 +63,17 @@
     }
   ],
   "hobbiesLabel": "Hobbies",
-  "hobbies": "Calistenics, beer brewing, tinkering with electronics"
+  "hobbies": "Calistenics, beer brewing, tinkering with electronics",
+  "highlightedWords": [
+    "Agile",
+    "CI/CD",
+    "web applications and services, enhancing functionality and performance",
+    "responsive",
+    "user-friendly interfaces",
+    "quality",
+    "timely delivery",
+    "Proactively introduced new technologies",
+    "accelerating development",
+    "end-to-end project lifecycles"
+  ]
 }
