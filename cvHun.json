@@ -23,19 +23,48 @@
       ]
     }
   ],
+  "highlightedWords": [
+    "Agilis",
+    "CI/CD",
+    "Webalkalmazások",
+    "szolgáltatások",
+    "reszponzív",
+    "felhasználóbarát felületeket",
+    "minőséget",
+    "határidők betartását",
+    "Új technológiák proaktív bevezetésével",
+    "Modern keretrendszerek",
+    "funkcionalitást",
+    "projektek teljes életciklusát",
+    "felgyorsítottam",
+    "Spring Framework",
+    "teljesítményt"
+  ],
   "skillsLabel": "Ismeretek",
+  "skillsLabelHint": "Félkövér = Szakmai tapasztalat",
   "skills": [
-    "Nyelvek: Java, Javascript, PL/SQL, Typescript, Kotlin, Rust, C++, C#, Python",
+    "Nyelvek: Java, Javascript, PL/SQL, Typescript, PHP, Kotlin, Rust, C++, C#, Python",
     "Frontend: Vue.js, React, Angular, Bootstrap, MUI",
     "Backend: Spring Boot, Express.js, Laravel",
-    "Mobile: Flutter, React Native",
-    "Relációs adatbázisok: Oracle, PostgreSQL, MySQL, Hibernate, Prisma, Sequelize",
+    "Mobile: Flutter",
+    "Relációs adatbázisok és eszközök: Oracle, PostgreSQL, MySQL, Hibernate, JPA, Prisma, Sequelize",
     "NoSQL adatbázisok: MongoDB, Firebase",
     "CI/CD: Jenkins, Github Actions",
     "Cloud: AWS, Rancher",
     "Containerization: Docker, Kubernetes",
     "APIs: REST, SOAP, WS, MQTT",
     "Tesztelés: JUnit, Mockito, Jest, Mocha, Cypress, Selenium"
+  ],
+  "highlightedWordsSkills": [
+    "Java", "Javascript", "PL/SQL", "Typescript", "Python", "PHP",
+    "React", "Angular", "Bootstrap", "TailwindCSS",
+    "Spring Boot", "Laravel",
+    "Oracle", "PostgreSQL", "Hibernate", "JPA",
+    "Jenkins", "Github Actions",
+    "AWS", "Rancher",
+    "Docker", "Kubernetes",
+    "REST", "SOAP", "WS",
+    "JUnit", "Jest", "Cypress", "Selenium", "Mockito", "Mocha"
   ],
   "educationLabel": "Tanulmányok",
   "educations": [
@@ -63,22 +92,5 @@
     }
   ],
   "hobbiesLabel": "Hobbik",
-  "hobbies": "Street workout, sörfőzés, hobbiprojektek fejlesztése",
-  "highlightedWords": [
-    "Agilis",
-    "CI/CD",
-    "Webalkalmazások",
-    "szolgáltatások",
-    "reszponzív",
-    "felhasználóbarát felületeket",
-    "minőséget",
-    "határidők betartását",
-    "Új technológiák proaktív bevezetésével",
-    "Modern keretrendszerek",
-    "funkcionalitást",
-    "projektek teljes életciklusát",
-    "felgyorsítottam",
-    "Spring Framework",
-    "teljesítményt"
-  ]
+  "hobbies": "Street workout, sörfőzés, hobbiprojektek fejlesztése"
 }
