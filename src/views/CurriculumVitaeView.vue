@@ -19,6 +19,13 @@ let formatBullets = (cvObject: CV | undefined) => {
       cvObject.jobs[jobIndex].jobBullets[bulletIndex] = bullet;
     })
   });
+  cvObject?.skills?.forEach((skill, skillIndex) => {
+    cvObject?.highlightedWordsSkills.forEach(highlightedWord => {
+      skill = skill.replace(new RegExp(`\\b${highlightedWord}\\b`, "i"), `<span class="font-semibold">${highlightedWord}</span>`);
+    })
+    cvObject.skills[skillIndex] = skill;
+
+  })
   console.log(cvObject)
   cv.value = cvObject;
 }
@@ -121,13 +128,11 @@ if(lang === "en") {
   <!--    <li class="mt-0.5">Automated manual tasks and wrote support applications for recurring issues</li>-->
   <!--  </ul>-->
   <div class="text-xl font-mono font-bold uppercase print:mt-1 mt-2">
-    {{cv?.skillsLabel}}
+    {{cv?.skillsLabel}} <span class="font-light normal-case text-lg">({{cv?.skillsLabelHint}})</span>
   </div>
   <Separator class="dark:bg-white print:dark:bg-slate-900" orientation="horizontal"/>
   <ul class="list-disc list-inside">
-    <li class="mt-0.5" v-for="skill in cv?.skills">
-      {{skill}}
-    </li>
+    <li class="mt-0.5 md:whitespace-nowrap print:whitespace-nowrap" v-for="skill in cv?.skills" v-html="skill"></li>
   </ul>
   <div class="text-xl font-mono font-bold uppercase mt-2">
     {{cv?.educationLabel}}

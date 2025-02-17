@@ -9,6 +9,7 @@ export type CV = {
 	experienceLabel: string;
 	jobs: CVJobs[];
 	skillsLabel: string;
+	skillsLabelHint: string;
 	skills: string[];
 	educationLabel: string;
 	educations: CVEducations[];
@@ -17,6 +18,7 @@ export type CV = {
 	hobbiesLabel: string;
 	hobbies: string;
 	highlightedWords: string[];
+	highlightedWordsSkills: string[];
 }
 export type CVJobs = {
 	company: string;
