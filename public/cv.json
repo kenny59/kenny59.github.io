@@ -42,28 +42,29 @@
   "skillsLabel": "Skills",
   "skillsLabelHint": "Bold = Professional Experience",
   "skills": [
-    "Languages: Java, Javascript, PL/SQL, Typescript, Python, PHP, Go, Kotlin, Rust, C++, C#, Dart",
-    "Frontend: Vue.js, React, Angular, TailwindCSS, Bootstrap, MUI",
+    "Languages: Java, Javascript, SQL, Typescript, Python, PHP, Kotlin, Rust, Dart",
+    "Frontend: Vue.js, React, Angular, TailwindCSS, Bootstrap",
     "Backend: Spring Boot, Express.js, Laravel",
     "Mobile: Flutter",
     "Relational Databases and tools: Oracle, PostgreSQL, Flyway, Hibernate, JPA, MySQL, Prisma, Sequelize",
     "NoSQL Databases: MongoDB, Firebase",
     "CI/CD: Jenkins, Github Actions",
-    "Cloud: AWS, Rancher",
-    "Containerization: Docker, Kubernetes",
+    "Containerization: Docker",
     "APIs: REST, SOAP, WS, MQTT",
-    "Testing: JUnit, Mockito, Jest, Mocha, Cypress, Selenium"
+    "Testing: JUnit, Mockito, Jest, Selenium",
+    "Other tools: OpenAPI, Ansible, Postman, Apache JMeter"
   ],
   "highlightedWordsSkills": [
     "Java", "Javascript", "PL/SQL", "Typescript", "Python", "PHP",
     "React", "Angular", "Bootstrap", "TailwindCSS",
-    "Spring Boot", "Laravel",
-    "Oracle", "PostgreSQL", "Hibernate", "JPA", "Flyway",
+    "Spring Boot",
+    "Oracle", "PostgreSQL", "Hibernate", "JPA", "Flyway", "SQL",
     "Jenkins", "Github Actions",
     "AWS","Rancher",
     "Docker", "Kubernetes",
     "REST", "SOAP", "WS",
-    "JUnit", "Jest", "Cypress", "Selenium", "Mockito", "Mocha"
+    "JUnit", "Jest", "Selenium", "Mockito", "Selenium",
+    "OpenAPI", "Postman", "Apache JMeter"
   ],
   "educationLabel": "Education",
   "educations": [
