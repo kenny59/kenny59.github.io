@@ -50,7 +50,7 @@
     "Relációs adatbázisok és eszközök: Oracle, PostgreSQL, Flyway, Hibernate, JPA, MySQL, Prisma, Sequelize",
     "NoSQL adatbázisok: MongoDB, Firebase",
     "CI/CD: Jenkins, Github Actions",
-    "Containerization: Docker",
+    "Containerization: Docker, Kubernetes",
     "APIs: REST, SOAP, WS, MQTT",
     "Tesztelés: JUnit, Mockito, Jest, Selenium",
     "Egyéb eszközök: OpenAPI, Ansible, Postman, Apache JMeter"

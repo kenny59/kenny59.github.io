@@ -17,7 +17,7 @@
       "jobBullets": [
         "Collaborated within an Agile team to ensure seamless integration and deployment using continuous delivery (CI/CD) practices",
         "Designed, refactored, and maintained robust web applications and services (Spring Framework), enhancing functionality and performance",
-        "Built responsive, user-friendly interfaces with modern frameworks like React, Angular, and TailwindCSS",
+        "Built responsive, user-friendly interfaces with modern frameworks like React, Angular and TailwindCSS",
         "Proactively introduced new technologies for legacy applications, significantly accelerating development and deployment timelines",
         "Oversaw end-to-end project lifecycles, from initial development to successful deployment, ensuring quality and timely delivery"
       ]
@@ -49,7 +49,7 @@
     "Relational Databases and tools: Oracle, PostgreSQL, Flyway, Hibernate, JPA, MySQL, Prisma, Sequelize",
     "NoSQL Databases: MongoDB, Firebase",
     "CI/CD: Jenkins, Github Actions",
-    "Containerization: Docker",
+    "Containerization: Docker, Kubernetes",
     "APIs: REST, SOAP, WS, MQTT",
     "Testing: JUnit, Mockito, Jest, Selenium",
     "Other tools: OpenAPI, Ansible, Postman, Apache JMeter"
