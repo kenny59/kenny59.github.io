@@ -13,7 +13,7 @@ const items = ref([
 import link from './../assets/links.json';
 let links = link.links;
 import { inject } from 'vue'
-let isDark = inject('darkMode')
+let isDark = inject('darkMode');
 
 </script>
 

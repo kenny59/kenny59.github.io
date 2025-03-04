@@ -79,7 +79,8 @@ if(lang === "en") {
       </div>
     </div>
     <div class="flex-shrink-0 ml-auto relative print:top-0 -top-2 right-0">
-      <img src="/profile.jpg" class="object-cover w-32 h-32 rounded-full border-4 border-slate-700"/>
+      <img src="/profile.jpg" class="print:hidden object-cover w-32 h-32 rounded-full border-4 border-slate-700"/>
+      <img src="/profile_print.jpg" class="hidden print:block object-cover w-32 h-32 rounded-full border-4 border-slate-700"/>
     </div>
   </div>
   <Separator class="print:hidden dark:bg-white print:dark:bg-slate-900" orientation="horizontal"/>
