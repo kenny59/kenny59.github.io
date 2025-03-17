@@ -52,7 +52,7 @@
     "Containerization: Docker, Kubernetes",
     "APIs: REST, SOAP, WS, MQTT",
     "Testing: JUnit, Mockito, Jest, Selenium",
-    "Other tools: OpenAPI, Ansible, Postman, Apache JMeter"
+    "Other tools: OpenAPI, Ansible, Postman, Apache JMeter, Maven"
   ],
   "highlightedWordsSkills": [
     "Java", "Javascript", "PL/SQL", "Typescript", "Python", "PHP",
@@ -64,7 +64,7 @@
     "Docker", "Kubernetes",
     "REST", "SOAP", "WS",
     "JUnit", "Jest", "Selenium", "Mockito", "Selenium",
-    "OpenAPI", "Postman", "Apache JMeter"
+    "OpenAPI", "Postman", "Apache JMeter", "Maven"
   ],
   "educationLabel": "Education",
   "educations": [
